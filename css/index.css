@@ -1,0 +1,71 @@
+@font-face {
+    font-family: asd;
+    src: url(..//assets/fonts/Figtree-ExtraBold.ttf);
+}
+@font-face {
+    font-family: p;
+    src: url(..//assets/fonts/Figtree-SemiBold.ttf);
+}
+body{
+    background-color: rgb(244, 208, 78);
+    font-family: 'asd';
+    text-align: center;
+    /* height: calc(100vh - 10px); */
+}
+
+@media (max-height: 1000px) {
+    div.contest{
+        margin-top: 235px;
+    }
+}
+@media (max-height: 900px) {
+    div.contest{
+        margin-top: 185px;
+    }
+}
+@media (max-height: 800px) {
+    div.contest{
+        margin-top: 135px;
+    }
+}
+@media (max-height: 700px) {
+    div.contest{
+        margin-top: 85px;
+    }
+}
+@media (max-height: 600px) {
+    div.contest{
+        margin-top: 35px;
+    }
+}
+
+p{
+    font-family: 'p';
+}
+p.text{
+    opacity: 0.4;
+}
+svg{
+    border-radius: 12px;
+}
+div.contest{
+    background-color: white;
+    display: inline-block;
+    padding: 16px;
+    border:1px solid;
+    border-radius: 20px;
+    box-shadow: 5px 10px black;
+}
+div.flex{
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+div.flex div{
+    position: absolute;
+    translate: 70% 70%;
+}
+div.flex img{
+    width: 50px; 
+    height: 50px;
+}
