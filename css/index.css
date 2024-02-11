@@ -10,34 +10,9 @@ body{
     background-color: rgb(244, 208, 78);
     font-family: 'asd';
     text-align: center;
-    /* height: calc(100vh - 10px); */
+    height: calc(100vh - 16px);
 }
 
-@media (max-height: 1000px) {
-    div.contest{
-        margin-top: 235px;
-    }
-}
-@media (max-height: 900px) {
-    div.contest{
-        margin-top: 185px;
-    }
-}
-@media (max-height: 800px) {
-    div.contest{
-        margin-top: 135px;
-    }
-}
-@media (max-height: 700px) {
-    div.contest{
-        margin-top: 85px;
-    }
-}
-@media (max-height: 600px) {
-    div.contest{
-        margin-top: 35px;
-    }
-}
 
 p{
     font-family: 'p';
@@ -55,6 +30,9 @@ div.contest{
     border:1px solid;
     border-radius: 20px;
     box-shadow: 5px 10px black;
+    position: absolute;
+    top: 50%;
+    translate: -50% -50%;
 }
 div.flex{
     position: relative;
